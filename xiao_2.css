@@ -38,9 +38,8 @@ body{background-color: rgb(34, 34, 75);}
     font-size: 18px;  
 }
 
-img{
-    width: 40%;
-}
+img{width: 40%;}
+
 .xiao_main{float: right;}
 
 
@@ -115,13 +114,9 @@ table{
         width: 100%;
     }
 }
-#nav_toggle{
-    opacity: 0;
-}
+#nav_toggle{opacity: 0;}
 
-#nav_toggle:checked+.nav_>span{
-    transform: rotate(45deg);
-}
+#nav_toggle:checked+.nav_>span{transform: rotate(45deg);}
 
 #nav_toggle:checked+.nav_>span::before{
     top: 0;
@@ -133,9 +128,7 @@ table{
     transform: rotate(90deg);
 }
 
-#nav_toggle:checked ~ .menu_box{
-    left: 0 !important;
-}
+#nav_toggle:checked ~ .menu_box{left: 0 !important;}
 
 .nav_{
     position: fixed;
