@@ -168,8 +168,8 @@ table{
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    /* background-color: rgb(68, 76, 117); */
-    background-image: url("night.jpg");
+    background-color: rgb(68, 76, 117);
+/*     background-image: url("night.jpg"); */
     box-shadow: 2px 2px 6px rgba(0,0,0,.4);
     transition-duration: .25s;
 }
